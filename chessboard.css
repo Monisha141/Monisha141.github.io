@@ -1,0 +1,36 @@
+table{
+background-color:black;
+font-size: 40px;
+border: 10px solid green;
+margin: auto;
+width: 100px;
+padding: 10px;
+border-collapse: collapse;
+
+}
+tr{
+    text-align: center;
+    margin: auto;
+}
+td{
+ padding: 10px;
+ margin: auto;  
+}
+
+li{
+list-style-type:none;
+height: 35px;
+width: 40px;
+margin: auto;
+
+}
+
+tr:nth-child(even) td:nth-child(even),tr:nth-child(odd) td:nth-child(odd){
+
+background:blue;
+
+}
+
+tr:nth-child(odd) td:nth-child(even),tr:nth-child(even) td:nth-child(odd){
+
+background: azure;}
