@@ -1,0 +1,32 @@
+#container{
+    background-color:rgb(174, 238, 178);
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.983) 0%, rgba(148, 203, 233, 0.83) 100%); 
+    width: 350px;
+    margin-left: 200px;
+    padding: 20px;
+    
+    }
+    
+    input{
+        background-color:palevioletred;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 23px;
+        text-align: right;
+        height: 50px;
+    }
+    button{
+        border-radius: 40%;
+       font-size: 25px; 
+       padding: 27px;
+       margin-top: 10px;
+       box-shadow: inset 5px 5px 5px;
+       background-color:cadetblue;
+    
+    }
+    #button{
+        padding-left: 25px;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 5px;  
+    }
+    
